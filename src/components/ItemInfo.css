@@ -1,0 +1,60 @@
+.itemInfo {
+    grid-area: itemInfo;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "ii-t ii-p"
+    "ii-d ii-g"
+    "ii-a ii-s"
+;
+}
+
+.itemInfoGallery {
+    grid-area: ii-g;
+    margin-left: 50px;
+}
+
+.itemInfoSeller {
+    grid-area: ii-s;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.itemInfoAddress {
+    grid-area: ii-a;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.itemInfoTitle {
+    grid-area: ii-t;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px black;
+}
+
+.itemInfoDescription {
+    grid-area: ii-d;
+    margin: auto;
+    font-size: 35px;
+    margin-right: 50px;
+}
+
+.itemInfoPrice {
+    grid-area: ii-p;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: solid 1px black;
+}

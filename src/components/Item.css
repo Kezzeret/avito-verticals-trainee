@@ -1,9 +1,36 @@
 .item {
-
+    display: grid;
+    grid-template-columns: 500px minmax(200px, 1fr);
 }
 
 .itemPreview {
     height: 300px;
     background-size: cover;
     background-position: center;
+}
+
+.itemDescription {
+    font-size: 30px;
+    margin: 20px;
+    text-align: left;
+}
+
+.itemTitle {
+    font-weight: 700;
+    color: #009cf0;
+}
+
+.itemTitle:hover {
+    color: #ff4b54;
+}
+
+.itemAddress {
+}
+
+.itemPrice {
+    font-weight: bold;
+}
+
+a {
+    text-decoration-line: none;
 }

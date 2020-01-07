@@ -4,7 +4,7 @@ import MainPage from "./components/MainPage";
 import {BrowserRouter, Route} from "react-router-dom";
 import {Provider} from "react-redux";
 import store from './redux/redux-store';
-import ItemInfoContainer from "./components/ItemInfoContainer";
+import ItemPage from "./components/ItemPage";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <BrowserRouter>
             <Provider store={store}>
       <Route exact path="/" render={() => <MainPage />} />
-      <Route path='/item/:itemId' render={() => <ItemInfoContainer />} />
+      <Route path='/item/:itemId' render={() => <ItemPage />} />
             </Provider>
         </BrowserRouter>
     </div>

@@ -4,7 +4,9 @@ import ItemsContainer from "./ItemsContainer";
 
 const MainPage = (props) => {
     return <div className="mainPage">
+        <div className="mainPageItems">
         <ItemsContainer/>
+        </div>
     </div>
 };
 

@@ -1,5 +1,5 @@
 import React from "react";
-import ItemPage from "./ItemPage";
+import ItemInfo from "./ItemInfo";
 import * as axios from "axios";
 import {connect} from "react-redux";
 import {setItemInfo} from "../redux/itemInfo-reducer";
@@ -16,7 +16,7 @@ class ItemInfoContainer extends React.Component {
 
     render () {
         return (
-            <ItemPage {...this.props} itemIfo={this.props.itemInfo}/>
+            <ItemInfo {...this.props} itemIfo={this.props.itemInfo}/>
         )
     }
 }

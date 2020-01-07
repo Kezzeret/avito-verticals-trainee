@@ -8,14 +8,21 @@ const Item = ({id, address, title, previewImage, price}) => {
             <NavLink to={'/item/' + id}>
             <div className="itemPreview" style={{ backgroundImage: `url(${previewImage})` }} />
             </NavLink>
-            <div className="itemTitle">
+            <div>
+                <NavLink to={'/item/' + id}>
+                <div className="itemTitle itemDescription">
+
+
                 {title}
+
             </div>
-            <div className="itemAdress">
+                </NavLink>
+            <div className="itemAddress itemDescription">
                 {address}
             </div>
-            <div className="itemPrice">
+            <div className="itemPrice itemDescription">
                 {price}
+            </div>
             </div>
         </div>
     )

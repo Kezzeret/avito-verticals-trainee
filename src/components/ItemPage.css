@@ -1,3 +1,9 @@
-.gallery {
-    height: 500px;
+.itemPage {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: ". ip-i .";
+}
+
+.itemPageInfo {
+    grid-area: ip-i;
 }
