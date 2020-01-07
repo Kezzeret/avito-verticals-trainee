@@ -10,6 +10,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1VtkVdXh25eijzfugSKu0qjUMyn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,17 +25,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kezze\Documents\GitHub\avito-verticals-trainee\src\components\ItemPageComponents" />
+      <recent name="C:\Users\kezze\Documents\GitHub\avito-verticals-trainee\src\components\MainPageComponents" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kezze\Documents\GitHub\avito-verticals-trainee\src\redux" />
     </key>
@@ -59,7 +70,8 @@
       <workItem from="1578079806364" duration="4190000" />
       <workItem from="1578228174517" duration="28446000" />
       <workItem from="1578327569205" duration="7335000" />
-      <workItem from="1578352141962" duration="3018000" />
+      <workItem from="1578352141962" duration="3618000" />
+      <workItem from="1578399710334" duration="2362000" />
     </task>
     <servers />
   </component>
@@ -67,10 +79,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="167" key="SettingsEditor" timestamp="1578268801980">
+    <state x="205" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578400723964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="205" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578400723964" />
+    <state x="0" y="167" key="SettingsEditor" timestamp="1578400406391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="167" key="SettingsEditor/0.0.1920.1040/-1920.-618.1280.680@0.0.1920.1040" timestamp="1578268801980" />
+    <state x="0" y="167" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578400406391" />
     <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1578241206344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
